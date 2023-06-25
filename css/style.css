@@ -62,7 +62,7 @@ body {
 body {
   color: #000;
   line-height: 1;
-  font-family: "OpenSans", sans-serif;
+  font-family: "Graphik", sans-serif;
   font-size: 1rem;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
@@ -74,7 +74,7 @@ body {
 input,
 button,
 textarea {
-  font-family: "OpenSans", sans-serif;
+  font-family: "Graphik", sans-serif;
   font-size: inherit;
   line-height: inherit;
 }
