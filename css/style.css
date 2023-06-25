@@ -1,41 +1,41 @@
 @charset "UTF-8";
 
 @font-face {
-  font-family: Graphik;
+  font-family: OpenSans;
   font-display: swap;
-  src: url("../fonts/Graphik-Regular.woff2") format("woff2"), url("../fonts/Graphik-Regular.woff") format("woff");
+  src: url("../fonts/OpenSans-Regular.woff2") format("woff2"), url("../fonts/OpenSans-Regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: Graphik;
+  font-family: OpenSans;
   font-display: swap;
-  src: url("../fonts/Graphik-Medium.woff2") format("woff2"), url("../fonts/Graphik-Medium.woff") format("woff");
+  src: url("../fonts/OpenSans-Medium.woff2") format("woff2"), url("../fonts/OpenSans-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
-  font-family: Graphik;
+  font-family: OpenSans;
   font-display: swap;
-  src: url("../fonts/Graphik-Semibold.woff2") format("woff2"), url("../fonts/Graphik-Semibold.woff") format("woff");
+  src: url("../fonts/OpenSans-SemiBold.woff2") format("woff2"), url("../fonts/OpenSans-SemiBold.woff") format("woff");
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
-  font-family: Graphik;
+  font-family: OpenSans;
   font-display: swap;
-  src: url("../fonts/Graphik-Bold.woff2") format("woff2"), url("../fonts/Graphik-Bold.woff") format("woff");
+  src: url("../fonts/OpenSans-Bold.woff2") format("woff2"), url("../fonts/OpenSans-Bold.woff") format("woff");
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
-  font-family: Graphik;
+  font-family: OpenSans;
   font-display: swap;
-  src: url("../fonts/Graphik-Super.woff2") format("woff2"), url("../fonts/Graphik-Super.woff") format("woff");
+  src: url("../fonts/OpenSans-ExtraBold.woff2") format("woff2"), url("../fonts/OpenSans-ExtraBold.woff") format("woff");
   font-weight: 800;
   font-style: normal;
 }
@@ -62,7 +62,7 @@ body {
 body {
   color: #000;
   line-height: 1;
-  font-family: "Graphik", sans-serif;
+  font-family: "OpenSans", sans-serif;
   font-size: 1rem;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
@@ -74,7 +74,7 @@ body {
 input,
 button,
 textarea {
-  font-family: "Graphik", sans-serif;
+  font-family: "OpenSans", sans-serif;
   font-size: inherit;
   line-height: inherit;
 }
