@@ -1066,11 +1066,11 @@ section {
 .program__item {
   border: 1px solid #27AE60;
   border-radius: 20px;
+  border-collapse: collapse;
+  overflow: hidden;
 }
 
 .program__content {
-  border: 1px solid #27AE60;
-  border-radius: 20px;
   height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1126,6 +1126,7 @@ section {
   -o-object-fit: cover;
      object-fit: cover;
   max-width: 100%;
+  width: 100%;
 }
 
 .program-steps__inner {
