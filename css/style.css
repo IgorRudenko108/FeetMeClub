@@ -1063,6 +1063,11 @@ section {
   grid-template-rows: 1;
 }
 
+.program__item {
+  border: 1px solid #27AE60;
+  border-radius: 20px;
+}
+
 .program__content {
   border: 1px solid #27AE60;
   border-radius: 20px;
