@@ -649,6 +649,10 @@ section {
   margin-top: 38px;
 }
 
+.footer__social-link img {
+  height: 18px;
+}
+
 .intro {
   border-radius: 0px 0px 50px 50px;
   padding: 205px 0 175px;
@@ -1512,10 +1516,36 @@ section {
   border-radius: 20px;
 }
 
-.share__slide-img {
+.share__slide-img-box {
   margin-bottom: 20px;
-  max-width: 100%;
+  display: -ms-grid;
+  display: grid;
+  gap: 20px;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1;
+  grid-template-rows: 1;
+}
+
+.share__slide-img-ibg {
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 245%;
   width: 100%;
+  border: 1px solid #F2F2F2;
+}
+
+.share__slide-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-width: 100%;
 }
 
 .share__slide-title {
@@ -1681,6 +1711,7 @@ section {
 .form__discount-text {
   font-size: 12px;
   line-height: 100%;
+  text-transform: uppercase;
 }
 
 .form__discount-value {
